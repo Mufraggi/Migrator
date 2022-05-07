@@ -1,3 +1,5 @@
+
 fn main() {
-    println!("Hello, world!");
+   let db  = format!("postgres://{}:{}@{}:{}/{}", "postgres", "somePassword", "localhost", "5432", "postgres");
+    println!("{}", db);
 }
